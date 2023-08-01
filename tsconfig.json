@@ -20,12 +20,12 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["node"],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "types": ["node"]
 
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "src",
+    "node_modules/.pnpm/@types+jest@29.5.3/node_modules/@types/jest/index.d.ts"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }],
 }

@@ -1,19 +1,14 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+import styled from 'styled-components'
 
-.app {
+export const ContentBlock = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
 
   width: 100vw;
-  height: 100vh;
-}
-
-.board {
+  height: 90vh;
+`
+export const BoardBlock = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,14 +20,12 @@
 
   border: 5px solid lightblue;
   border-radius: 12px;
-}
-
-.board-title {
+`
+export const BoardTitle = styled.div`
   font-size: 1.5rem;
   font-weight: 700;
-}
-
-.item {
+`
+export const Item = styled.div`
   cursor: grab;
 
   width: 100%;
@@ -42,4 +35,4 @@
   background-color: #e7fdd8;
   border: 2px solid lightpink;
   border-radius: 6px;
-}
+`
