@@ -27,13 +27,6 @@ Start the development server:
 
 npm start
 
-Set up Firebase:
-
-Create a Firebase project on the Firebase Console (https://console.firebase.google.com/).
-Set up Firestore Realtime Database and configure Firebase in your project.
-Update the Firebase configuration in your code (usually in a Firebase configuration file) with your project's credentials.
-Start the development server:
-
 bash
 Copy code
 npm start
